@@ -2,22 +2,28 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import SoyJuan from './SoyJuan'
+import Contador from './Contador'
+
 function App() {
-  return (
+    return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div className="App-intro">
+          {/*Incluimos nuestro componente*/}
+          <SoyJuan/>
+          <Contador/>
+        </div>
+        <br></br>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/JuanAraica/contador.git"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
-        </a>
+CLICK AQUI
+        </a> para ir al repositorio.
       </header>
     </div>
   );
