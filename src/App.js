@@ -24,6 +24,14 @@ function App() {
         >
 CLICK AQUI
         </a> para ir al repositorio.
+        <a
+          className="App-link"
+          href="https://drive.google.com/drive/folders/1-MrqCMJ6d_XXcGalfRmgCw28PZBQFZ9H?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+Video Explicativo
+        </a>
       </header>
     </div>
   );
